@@ -1,4 +1,4 @@
-package br.dominio.dio_publicando_api_nuvem;
+package br.dominio.dio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
