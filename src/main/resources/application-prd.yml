@@ -7,11 +7,4 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: validate
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
-  api-docs:
-    path: /v3/api-docs
-  default-produces-media-type: application/json
-  servers:
-    - url: "https://restapi-production-bradesco.up.railway.app"
+
