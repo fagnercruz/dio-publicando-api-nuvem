@@ -15,8 +15,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins("https://restapi-production-bradesco.up.railway.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
-                        .allowedHeaders("*")
-                        .allowCredentials(true);
+                        .allowedHeaders("*");
             }
         };
     }
