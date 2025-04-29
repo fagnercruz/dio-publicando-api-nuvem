@@ -15,5 +15,3 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: validate
-  profiles:
-    active: prd
